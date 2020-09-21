@@ -2,183 +2,204 @@
     "Users": [
         {
             "userId": "1",
-            "jobRole": "",
-            "firstName": "",
-            "lastName": "",
-            "startDate": "",
-            "location": "",
-            "bio": ""
+            "jobRole": "Software Engineering",
+            "firstName": "Ventsislav",
+            "lastName": "Antov",
+            "startDate": "07.09.20",
+            "location": "Amsterdam",
+            "bio": "Recent graduate, ex-YouTuber, Elsevier newbie, boxing and gym guru and some experience in coding",
+            "imageLink": "https://i.ibb.co/c1zB7RN/harry.jpg"
         },
         {
             "userId": "2",
-            "jobRole": "",
-            "firstName": "",
-            "lastName": "",
-            "startDate": "",
-            "location": "",
-            "bio": ""
+            "jobRole": "DevOps",
+            "firstName": "Gabrielė",
+            "lastName": "Stravinskaitė",
+            "startDate": "07.09.20",
+            "location": "Amsterdam",
+            "bio": "Round-earther, anti-anti-vaxer, pro-5G and pro-AI Statistics postgraduate who believes that Covid-19 exists. Owns a religious horror statue",
+            "imageLink":"https://i.ibb.co/rMrcvqw/Draco-Mal.jpg"
         },
         {
             "userId": "3",
-            "jobRole": "",
-            "firstName": "",
-            "lastName": "",
-            "startDate": "",
-            "location": "",
-            "bio": ""
+            "jobRole": "DevOps",
+            "firstName": "Samuel",
+            "lastName": "Syed",
+            "startDate": "07.09.20",
+            "location": "London",
+            "bio": "MSc in Physics and a tech enthusiast with an insatiable curiosity and desire for self-development",
+            "imageLink":"https://i.ibb.co/8gmDRT7/hagrid.jpg"
         },
         {
             "userId": "4",
-            "jobRole": "",
-            "firstName": "",
-            "lastName": "",
-            "startDate": "",
-            "location": "",
-            "bio": ""
+            "jobRole": "Software engineer",
+            "firstName": "Mohammad",
+            "lastName": "Dasseh",
+            "startDate": "07.09.20",
+            "location": "Oxford",
+            "bio": "Ex-Mechanical Engineer. When I’m not at work I enjoy mountain climbing, running and reading",
+            "imageLink": "https://i.ibb.co/31YT6sz/Hermione-Granger.jpg"
         },
         {
             "userId": "5",
-            "jobRole": "",
-            "firstName": "",
-            "lastName": "",
-            "startDate": "",
-            "location": "",
-            "bio": ""
+            "jobRole": "DevOps",
+            "firstName": "Chris ",
+          "lastName": "Palmer",
+            "startDate": "07.09.20",
+            "location": "Amsterdam",
+            "bio": "MSc in Physics, into chess and amateur astronomy",
+            "imageLink":"https://i.ibb.co/v4fcBGp/Albus-Dumbledore.jpg"
         },
         {
             "userId": "6",
-            "jobRole": "",
-            "firstName": "",
-            "lastName": "",
-            "startDate": "",
-            "location": "",
-            "bio": ""
+            "jobRole": "DevOps",
+            "firstName": "Lawrence ",
+            "lastName": "Logan",
+            "startDate": "07.09.20",
+            "location": "Oxford",
+            "bio": "Biotech grad that’s into sailing, travelling and going to the pub. I will look after your pet, and make you a cuppa.",
+            "imageLink":"https://i.ibb.co/r0tSBBH/Severus-snape.jpg"
         },
         {   
             "userId": "7",
-            "jobRole": "",
-            "firstName": "",
-            "lastName": "",
-            "startDate": "",
-            "location": "",
-            "bio": ""
+            "jobRole": "DevOps",
+            "firstName": "Luke",
+            "lastName": "Marmion",
+            "startDate": "07.09.20",
+            "location": "London",
+            "bio": "TIO Core Engineering, pesto enthusiast, Chem Eng grad",
+            "imageLink":"https://i.ibb.co/8464FSK/Ron.jpg"
         },
         {
             "userId": "8",
-            "jobRole": "",
-            "firstName": "",
-            "lastName": "",
-            "startDate": "",
-            "location": "",
-            "bio": ""
+            "jobRole": "Software Engineer",
+            "firstName": "Celine",
+            "lastName": "Clausen",
+            "startDate": "07.09.20",
+            "location": "Aalborg",
+            "bio": "Recently graduated as a MSc of Economics, interested in Machine Learning, excellent at ‘cooking’ take away for dinner, dressage rider and like to go for a short run.",
+            "imageLink":"https://i.ibb.co/QcDGzHh/voldimort.jpg"
         },
         {
             "userId": "9",
-            "jobRole": "",
-            "firstName": "",
-            "lastName": "",
-            "startDate": "",
-            "location": "",
-            "bio": ""
+            "jobRole": "DevOps",
+            "firstName": "Sophie",
+            "lastName": "Clark",
+            "startDate": "07.09.20",
+            "location": "Oxford",
+            "bio": "MSc Computer Science graduate currently learning how to cook.",
+            "imageLink": "https://i.ibb.co/w6KPjnR/belitrix.jpg"
         },
         {
             "userId": "10",
-            "jobRole": "",
-            "firstName": "",
-            "lastName": "",
-            "startDate": "",
-            "location": "",
-            "bio": ""
+            "jobRole": "Software Engineer",
+            "firstName": "Venetia",
+            "lastName": "Miller",
+            "startDate": "07.09.20",
+            "location": "Oxford",
+            "bio": "Newcastle university cheerleading pres 2018 , likes to draw animals ( especially cute dogs), is passionate about ethics and oncology !!",
+            "imageLink":"https://i.ibb.co/2nsDfMR/Luna-Lovegood.jpg"
         },
         {
             "userId": "11",
-            "jobRole": "",
-            "firstName": "",
-            "lastName": "",
-            "startDate": "",
-            "location": "",
-            "bio": ""
+            "jobRole": "Software Engineer",
+            "firstName": "Muntazir",
+            "lastName": "Qasim",
+            "startDate": "07.09.20",
+            "location": "Oxford",
+            "bio": "Runner-Up finish in my Year 4 class spelling competition",
+            "imageLink":"https://i.ibb.co/TB8wJ2M/dolores.jpg"
         },
         {
             "userId": "12",
-            "jobRole": "",
-            "firstName": "",
-            "lastName": "",
-            "startDate": "",
-            "location": "",
-            "bio": ""
+            "jobRole": "DevOps",
+            "firstName": "Chris",
+            "lastName": "Kavanagh",
+            "startDate": "07.09.20",
+            "location": "Aalborg",
+            "bio": "MSc aircraft engineering rugby and football ex bar manager four-eyed",
+            "imageLink": "https://i.ibb.co/3Sqcp4g/Sirius-Black.jpg"
         },
         {
             "userId": "13",
             "jobRole": "",
-            "firstName": "",
-            "lastName": "",
-            "startDate": "",
-            "location": "",
-            "bio": ""
+            "firstName": "Dafydd",
+            "lastName": "James",
+            "startDate": "07.09.20",
+            "location": "Oxford",
+            "bio": "Kahoot enthusiast",
+            "imageLink": "https://i.ibb.co/YD9NKKL/dobbythehouseelf.jpg"
         },
         {
             "userId": "14",
-            "jobRole": "",
-            "firstName": "",
-            "lastName": "",
-            "startDate": "",
-            "location": "",
-            "bio": ""
+            "jobRole": "Network Engineer",
+            "firstName": "Sayma",
+            "lastName": "Ahmed",
+            "startDate": "07.09.20",
+            "location": "London",
+            "bio": "I like runnung and reading",
+            "imageLink":"https://i.ibb.co/4PXQVBr/Remus-lupin.jpg"
         },
         {
             "userId": "15",
             "jobRole": "",
-            "firstName": "",
-            "lastName": "",
-            "startDate": "",
-            "location": "",
-            "bio": ""
+            "firstName": "Rebecca",
+            "lastName": "Pavcic",
+            "startDate": "07.09.20",
+            "location": "London",
+            "bio": "I like cycling and Netflix",
+            "imageLink":"https://i.ibb.co/Tt3RnLK/sorting-Hat.jpg"
         },
         {
             "userId": "16",
-            "jobRole": "",
-            "firstName": "",
-            "lastName": "",
-            "startDate": "",
-            "location": "",
-            "bio": ""
+            "jobRole": "Software Engineer",
+            "firstName": "Andreas",
+            "lastName": "Tryfonos",
+            "startDate": "07.09.20",
+            "location": "London",
+            "bio": "Recent graduate, Love travelling, reading, mixing music and sports",
+            "imageLink":" https://i.ibb.co/C5CZVcL/Minerva-Mc-Gonagall.jpg"
         },
         {
             "userId": "17",
-            "jobRole": "",
-            "firstName": "",
-            "lastName": "",
-            "startDate": "",
-            "location": "",
-            "bio": ""
+            "jobRole": "DevOps",
+            "firstName": "Borsi",
+            "lastName": "Csokas",
+            "startDate": "07.09.20",
+            "location": "Aalborg",
+            "bio": "Crazy cat lady in the making ;)",
+            "imageLink":"https://i.ibb.co/tD9yr2S/Crabbe.jpg"
         },
         {
             "userId": "18",
-            "jobRole": "",
-            "firstName": "",
-            "lastName": "",
-            "startDate": "",
-            "location": "",
-            "bio": ""
+            "jobRole": "DevOps",
+            "firstName": "Liam",
+            "lastName": "Kemmitt",
+            "startDate": "07.09.20",
+            "location": "London",
+            "bio": "Part time influencer",
+            "imageLink":"https://i.ibb.co/nkc9HdG/Gregory-Goyle.jpg"
         },
         {
             "userId": "19",
-            "jobRole": "",
-            "firstName": "",
-            "lastName": "",
-            "startDate": "",
-            "location": "",
-            "bio": ""
+            "jobRole": "Quality Engineer",
+            "firstName": "Sneha",
+            "lastName": "Manikandan",
+            "startDate": "07.09.20",
+            "location": "London",
+            "bio": "Nature Lover, Traveller",
+            "imageLink":"https://i.ibb.co/6JkSMyQ/uncle-Vernon.jpg" 
         },
         {
             "userId": "20",
-            "jobRole": "",
-            "firstName": "",
-            "lastName": "",
-            "startDate": "",
-            "location": "",
-            "bio": ""
+            "jobRole": "DevOps",
+            "firstName": "Omar",
+            "lastName": "Shah",
+            "startDate": "07.09.20",
+            "location": "DevOps",
+            "bio": "Recent Graduate and food enthusiast. Critical of the tech industry, but optimistic that we can use AI for good.",
+            "imageLink":"https://i.ibb.co/7WZ38GV/petunia-Dursley.jpg"
+        
         }
     ]
 }
