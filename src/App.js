@@ -1,11 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Checkbox from './components/checkbox/Checkbox';
 import MainPage from './Pages/MainPage/MainPage';
 
 function App() {
   return (
-    <MainPage/>
+    <MainPage />
+    
   );
 }
 

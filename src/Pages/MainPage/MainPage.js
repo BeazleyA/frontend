@@ -1,92 +1,64 @@
 import React, { useState } from 'react';
-//import form
+import Checkbox from '../../components/checkbox/Checkbox';
 import DisplayData from './DisplayData';
 import PersonInfo from '../PersonInfo/PersonInfo';
-//import css from "./.css";
 import { Button } from 'react-bootstrap';
 import { Form } from 'react-bootstrap';
+import navPersonInfo from '../../components/mainToPersonInfo/MainToPersonInfo';
 
-// function MainPage() {
-//     // Declare a new state variable for each cohort (Make boolean)
-//     const [cH1, setCH1] = useState(true);
-//     const [cH2, setCH2] = useState(true);
-//     const [cH3, setCH3] = useState(true);
-//     // Person data
-//     const [personName, setPersonName] = useState("bob");
-//     // If true its on the main page, if false it's on a personal info page
-//     const[isDisplayMainPage, setIsDisplayMainPage] = useState (true);
-//     function handleMainPageChange(input) { //will be true or false input
-//              setIsDisplayMainPage(input)
+function MainPage() {
 
-//     }
-// //When tick box clicked then variable set to true if clicked and false if not clicked
-//     const handleCH1check = (event) => {
-        
-//         setCH1(event.target.checked);
-//     }
-// //When tick box clicked then variable set to true if clicked and false if not clicked
-// const handleCH2check = (event) => {
-        
-//     setCH2(event.target.checked);
-// }
-// //When tick box clicked then variable set to true if clicked and false if not clicked
-// const handleCH3check = (event) => {
-        
-//     setCH3(event.target.checked);
-// }
-//     //setting the button to the persons info, then displaying that page
-//     const  handleButtonClick= (event) => {
-//         setPersonName(event.target.value)
-//         handleMainPageChange(false)
-        
-//     }
+  // Person data
+  const [personName, setPersonName] = useState("bob");
+      
+  
+  //setting the button to the persons info, then displaying that page
+  const  handleButtonClick= (event) => {
+      setPersonName(event.target.value)
+      handleMainPageChange(false)
+      
+  }
+    // If true its on the main page, if false it's on a personal info page
+    const[isDisplayMainPage, setIsDisplayMainPage] = useState (true);
+    function handleMainPageChange(input) { //will be true or false input
+             setIsDisplayMainPage(input)
 
-//     return isDisplayMainPage ? (
+    }
 
-//         <div>
-//             <div>
-//             Search bar here
-//             </div>
-//             <div>
-// {/*goes to personal Info */}
-//             <Button
-//                 variant="primary"
-//                 onClick={handleButtonClick}
-//             >changePersonToBob</Button>
 
-//             <Button
-//                 variant="primary"
-//                 onClick={handleButtonClick}
-//             >changePersonToAlex</Button>
-//             </div>
-//             {
-//              <Form>
-//                 <Form.Check inline
-//                 onInput={handleCH1check}
-//                  label="Cohort One" >
-                
-//                  </Form.Check>
+    return  isDisplayMainPage ? (
 
-//                  <Form.Check inline
-//                 onInput={handleCH2check}
-//                 label="Cohort Two">
+        <div>
+            <div>
+            Search bar here
+            </div>
+            <div>
+        <Button
+            variant="primary"
+            onClick={handleButtonClick}
+        ><h2>Person Info Page </h2>
+        </Button>
 
-//                 </Form.Check>
+        <Button
+            variant="primary"
+            onClick={handleButtonClick}
+        >changePersonToAlex
+        </Button>
+    </div>
+            <div>
+{/*goes to personal Info */}
+     
+            </div>
 
-//                 <Form.Check inline
-//                 onInput={handleCH3check}
-//                  label="Cohort Three">
-                
-//                  </Form.Check>
-//             </Form> }
-//             <DisplayData data = {"Hello"}/>
+            <Checkbox />
+           </div> 
             
-//         </div>
-//     ) : (
-//     <PersonInfo personData = {personName} backToMainPage= {handleMainPageChange} />
+    ) : (
+          <PersonInfo personData = {personName} backToMainPage= {handleMainPageChange} />
 
-//     )
-// }
-// export default MainPage;
-// // ? do this if true
-// // : else do this
+    )
+}
+    
+export default MainPage;
+// ? do this if true
+// : else do this
