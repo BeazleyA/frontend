@@ -27,12 +27,11 @@ function MainPage() {
              setIsDisplayMainPage(input)
 
     }
-    return (
-    data.Users.map((user, index) =>(
+
+    const allUsers = data.Users.map((user, index) =>(
         <Profile key={user.userId} name={user.firstName + " " + user.lastName} image={user.imageLink} />
     ))
-    )
-
+    
 
     return  isDisplayMainPage ? (
 
@@ -59,6 +58,8 @@ function MainPage() {
             </div>
 
             <Checkbox />
+            {allUsers}
+
            </div> 
             
     ) : (
