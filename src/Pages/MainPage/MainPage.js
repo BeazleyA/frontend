@@ -1,10 +1,21 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 //import form
-import DisplayData from './DisplayData';
-import PersonInfo from '../PersonInfo/PersonInfo';
-//import css from "./.css";
-import { Button } from 'react-bootstrap';
-import { Form } from 'react-bootstrap';
+// import DisplayData from "./DisplayData";
+// import PersonInfo from "../PersonInfo/PersonInfo";
+// //import css from "./.css";
+// import { Button } from "react-bootstrap";
+// import { Form } from "react-bootstrap";
+
+const MainPage = () => {
+  return (
+    <div>
+      <h1>Elseveier Directory</h1>
+      <div>Search bar here</div>
+    </div>
+  );
+};
+
+export default MainPage;
 
 // function MainPage() {
 //     // Declare a new state variable for each cohort (Make boolean)
@@ -21,24 +32,24 @@ import { Form } from 'react-bootstrap';
 //     }
 // //When tick box clicked then variable set to true if clicked and false if not clicked
 //     const handleCH1check = (event) => {
-        
+
 //         setCH1(event.target.checked);
 //     }
 // //When tick box clicked then variable set to true if clicked and false if not clicked
 // const handleCH2check = (event) => {
-        
+
 //     setCH2(event.target.checked);
 // }
 // //When tick box clicked then variable set to true if clicked and false if not clicked
 // const handleCH3check = (event) => {
-        
+
 //     setCH3(event.target.checked);
 // }
 //     //setting the button to the persons info, then displaying that page
 //     const  handleButtonClick= (event) => {
 //         setPersonName(event.target.value)
 //         handleMainPageChange(false)
-        
+
 //     }
 
 //     return isDisplayMainPage ? (
@@ -64,7 +75,7 @@ import { Form } from 'react-bootstrap';
 //                 <Form.Check inline
 //                 onInput={handleCH1check}
 //                  label="Cohort One" >
-                
+
 //                  </Form.Check>
 
 //                  <Form.Check inline
@@ -76,11 +87,11 @@ import { Form } from 'react-bootstrap';
 //                 <Form.Check inline
 //                 onInput={handleCH3check}
 //                  label="Cohort Three">
-                
+
 //                  </Form.Check>
 //             </Form> }
 //             <DisplayData data = {"Hello"}/>
-            
+
 //         </div>
 //     ) : (
 //     <PersonInfo personData = {personName} backToMainPage= {handleMainPageChange} />
