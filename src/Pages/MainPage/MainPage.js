@@ -5,6 +5,9 @@ import PersonInfo from '../PersonInfo/PersonInfo';
 import { Button } from 'react-bootstrap';
 import { Form } from 'react-bootstrap';
 import navPersonInfo from '../../components/mainToPersonInfo/MainToPersonInfo';
+import Elseviertestimage from '../../Images/Elseviertestimage.jpg'
+import Profile from '../../components/Profile/Profile'
+import data from '../../Users.json'
 
 function MainPage() {
 
@@ -25,6 +28,10 @@ function MainPage() {
 
     }
 
+    const allUsers = data.Users.map((user, index) =>(
+        <Profile key={user.userId} name={user.firstName + " " + user.lastName} image={user.imageLink} />
+    ))
+    
 
     return  isDisplayMainPage ? (
 
@@ -51,6 +58,8 @@ function MainPage() {
             </div>
 
             <Checkbox />
+            {allUsers}
+
            </div> 
             
     ) : (
