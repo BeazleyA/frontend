@@ -28,7 +28,7 @@ setCH3(event.target.checked);
 console.log(cH3)
 }
 
-    return (<div>Test
+    return (<div>Select Cohort
         <Form>
         <Form.Check inline
         onInput={handleCH1check}
