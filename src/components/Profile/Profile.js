@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import Users from '../../Users.json';
+import React from 'react';
 import './Style/profile.css'
 
 //class  which will map our data to the the web app in the HTML format
@@ -9,12 +8,12 @@ import './Style/profile.css'
 
 //we want to loop the JSON array over the profile compnonent to return the values of firstname lastname and image
 const Profile = ({ name, jobRole, location, startDate, bio, image, userId}) => {
-    console.log(Users)
+    
     return (
         <ul>
             <li>
                 <div class ="profilename">{name}</div>
-                <div class="profilepic"><img src={image}></img></div>
+                <div class="profilepic"><img alt={name} src={image}></img></div>
                 <div class= "userId">{userId}</div>
                 <div class= "jobRole">{jobRole}</div>
                 <div class= "startDate">{startDate}</div>

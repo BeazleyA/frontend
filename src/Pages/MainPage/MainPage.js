@@ -1,11 +1,7 @@
 import React, { useState } from 'react';
 import Checkbox from '../../components/checkbox/Checkbox';
-import DisplayData from './DisplayData';
 import PersonInfo from '../PersonInfo/PersonInfo';
 import { Button } from 'react-bootstrap';
-import { Form } from 'react-bootstrap';
-import navPersonInfo from '../../components/mainToPersonInfo/MainToPersonInfo';
-import Elseviertestimage from '../../Images/Elseviertestimage.jpg'
 import Profile from '../../components/Profile/Profile'
 import data from '../../Users.json'
 
@@ -34,7 +30,7 @@ function MainPage() {
         const associates = []
 
         for (const [index, user] of data.Users.entries()) { //loops through the people in data file
-            if (cH1 && user.startDate == "07.09.18") {
+            if (cH1 && user.startDate === "07.09.18") {
                 associates.push(
                     <div>
                         <Profile key={user.userId} name={user.firstName + " " + user.lastName} image={user.imageLink} />
@@ -44,7 +40,7 @@ function MainPage() {
                             >More Profile Information</Button>
                     </div>
                 )
-            } else if (cH2 && user.startDate == "07.09.19") {
+            } else if (cH2 && user.startDate === "07.09.19") {
                 associates.push(
                     <div>
                         <Profile key={user.userId} name={user.firstName + " " + user.lastName} image={user.imageLink} />
@@ -54,7 +50,7 @@ function MainPage() {
                             >More Profile Information</Button>
                     </div>
                 )
-            } else if (cH3 && user.startDate == "07.09.20") {
+            } else if (cH3 && user.startDate === "07.09.20") {
                 associates.push(
                     <div>
                         <Profile key={user.userId} name={user.firstName + " " + user.lastName} image={user.imageLink} />
