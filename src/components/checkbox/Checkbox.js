@@ -21,7 +21,7 @@ const Checkbox = (props) => {
         inline
         defaultChecked
         onInput={handleCH1check}
-        label="Cohort One"
+        label="2018"
         data-testid="Cohort One"
         variant= "alert"
       ></Form.Check>
@@ -30,14 +30,14 @@ const Checkbox = (props) => {
         inline
         defaultChecked
         onInput={handleCH2check}
-        label="Cohort Two"
+        label="2019"
       ></Form.Check>
 
       <Form.Check
         inline
         defaultChecked
         onInput={handleCH3check}
-        label="Cohort Three"
+        label="2020"
       ></Form.Check>
     </Form>
   );
