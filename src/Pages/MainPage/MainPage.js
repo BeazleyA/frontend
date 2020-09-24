@@ -8,7 +8,7 @@ import Searchbar from "../../components/Searchbar/Searchbar";
 import "./main.css";
 import logo from "./logo.png";
 import Searchresults from "../../components/Searchresults/Searchresults";
-import { Card, Button, CardColumns } from "react-bootstrap";
+import { Card, Button, CardColumns, Navbar, Nav, NavDropdown} from "react-bootstrap";
 
 function MainPage() {
   const [cH1, setCH1] = useState(true);
@@ -105,18 +105,13 @@ function MainPage() {
   return isDisplayMainPage ? (
     <>
       <div class="boxed">
-        <h1
-          style={{color: "#ffffff", "text-align": "center","font-family": "ff din medium"
-          }}
-        >
-        <b>Non Solus</b>
-        </h1>
-        <img
-          style={{ float: "left", margin: "10px 0px 0px 0px", padding: "5px" }}
+      <img style={{ float: "left", margin: "0px 0px 0px 0px", padding: "0px" }}
           src={logo}
-          width="100"
-        />
+          width="100" />
+        <h1 style={{color: "#ffffff", "text-align": "center","font-family": "ff din medium"}}>
+        <b>Non Solus</b></h1>
       </div>
+
       <div className="s009">
         <form>
           <div className="inner-form">
