@@ -14,8 +14,8 @@ function PersonInfo(props) {
 
         for (const [index, user] of data.Users.entries()) {
             if (user.userId === props.userId) { //if the user in the data file equals the users button that's been clicked
-               return <Profile jobRole={"Job Role: "+ user.jobRole} name={user.firstName + " " + user.lastName}  
-               startDate= {"Start Date: "+ user.startDate} location={"Location: "+ user.location} bio={"Bio: "+ user.bio} image={user.imageLink} /> //Add other parts of the info
+        return <Profile jobRole={user.jobRole} name={user.firstName + " " + user.lastName}  
+               startDate= {user.startDate} location={user.location} bio={user.bio} image={user.imageLink} /> //Add other parts of the info
              }
         }
     }
@@ -29,6 +29,6 @@ function PersonInfo(props) {
             >Back Button</Button>
            </div>
 
-       ) 
+     ) 
    }
        export default PersonInfo;
