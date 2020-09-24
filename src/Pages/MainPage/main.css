@@ -829,6 +829,19 @@ legend {
   font-family: 'Lato', sans-serif;
 }
 
+.personInfo {
+  min-height: 100vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  background: #d9eff5;
+  padding: 15px;
+  font-family: 'Lato', sans-serif;
+}
+
 .s009 form {
   width: 100%;
   max-width: 790px;

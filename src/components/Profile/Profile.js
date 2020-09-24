@@ -19,8 +19,6 @@ const Profile = ({
 }) => { 
   return (
      <>
-     {
-    <Card style={{ width: '18rem' }}>
     <Card.Img variant="top" height="auto" width="150px" src={image} alt={name}/>
     <Card.Body>
       <Card.Title><div class="profilename">{name}</div></Card.Title>
@@ -31,18 +29,7 @@ const Profile = ({
         <div class="location"><b>Location: </b>{location}</div>
         <div class="bio"><b>Bio: </b>{bio}</div>
       </Card.Text>
-   
     </Card.Body>
-  </Card>}
-        {/* <div class="profilename">{name}</div>
-        <div class="profilepic">
-          <img height="150px" width="150px" alt={name} src={image}></img>
-        </div>
-        <div class="userId">{userId}</div>
-        <div class="jobRole">{jobRole}</div>
-        <div class="startDate">{startDate}</div>
-        <div class="location">{location}</div>
-     <div class="bio">{bio}</div> */}
       </>
   );
 };

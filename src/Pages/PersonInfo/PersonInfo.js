@@ -1,7 +1,9 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
+import { Button , Card } from 'react-bootstrap';
 import Profile from '../../components/Profile/Profile'
 import data from '../../Users.json'
+import "../MainPage/main.css"
+
 
 
 
@@ -21,13 +23,17 @@ function PersonInfo(props) {
     }
 
        return (
+           <body className="personInfo">
            <div>
+            <Card>
                {displayPerson()}
             <Button
                 variant="primary"
                 onClick={handleBackButtonClick}
-            >Back Button</Button>
+            >Back to results</Button>
+            </Card>
            </div>
+           </body>
 
      ) 
    }
