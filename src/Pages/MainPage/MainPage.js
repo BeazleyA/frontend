@@ -1,12 +1,8 @@
 import React, { useState } from 'react';
 import Checkbox from '../../components/checkbox/Checkbox';
-import DisplayData from './DisplayData';
 import PersonInfo from '../PersonInfo/PersonInfo';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Button } from 'react-bootstrap';
-import { Form } from 'react-bootstrap';
-import navPersonInfo from '../../components/mainToPersonInfo/MainToPersonInfo';
-import Elseviertestimage from '../../Images/Elseviertestimage.jpg'
 import Profile from '../../components/Profile/Profile'
 import database from '../../Users.json'
 import Searchbar from '../../components/Searchbar/Searchbar'
@@ -112,7 +108,7 @@ function MainPage() {
                 >changePersonToAlex
         </Button>
             </div>
-            
+            <Checkbox />
         </div>  
     </>    
     ) : (

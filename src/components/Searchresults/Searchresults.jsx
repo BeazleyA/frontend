@@ -1,7 +1,5 @@
-import React, { useState } from 'react'
-import profiles from '../../Users.json'
-import Checkbox from '../checkbox/Checkbox'
-import { Card, Button, CardDeck, CardColumns, Primary} from "react-bootstrap"
+import React from 'react'
+import { Card, Button, CardColumns} from "react-bootstrap"
 
 function Searchresults({data, setData}) {
 
@@ -15,10 +13,10 @@ function Searchresults({data, setData}) {
   
    
     // handle change event of search input
-    const handleChange = value => {
+    //const handleChange = value => {
       //setSearchText(value);
       // filterData(value)
-    };
+   // };
   
   
     // filter users.json (cohort) by search text in searchbar

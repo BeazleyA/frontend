@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
 import profiles from '../../Users.json'
-import Checkbox from '../checkbox/Checkbox'
-import { Image } from "react-bootstrap"
 
 function Searchbar({data, setData}) {
 
