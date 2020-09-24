@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import profiles from '../../Users.json'
 import Checkbox from '../checkbox/Checkbox'
-import { Image } from "react-bootstrap"
+import { Card, Button, CardDeck, CardColumns, Primary} from "react-bootstrap"
 
 function Searchresults({data, setData}) {
 
@@ -35,18 +35,20 @@ function Searchresults({data, setData}) {
     //   }
     // }
   return (
-    <div className="Search Text">
+    <CardColumns>
       {data.map((d, i) => {
-        return <div key={i}>
-          <b>Name: </b>{d.firstName + " " + d.lastName}<br />
-          <b>Start Date: </b>{d.startDate}<br />
-          <b></b>
-          {/* <Image src={d.imageLink} rounded /> */}
-          <img style={{ height: "150px" }} src={d.imageLink}></img>
-        </div>
+        return <Card bg = 'dark' text='light'  key={i}>
+          <img className=" card-img-top" src={d.imageLink}/>
+          <Card.Body className="d-flex flex-column">
+            <div className="d-flex mb-2  justify-content-center">
+          <Card.Title className="mb-1 font-weight-bold">{d.firstName + " " + d.lastName}</Card.Title>
+          </div>
+          <Button variant="primary">See Profile</Button>
+          </Card.Body>
+        </Card>
       })}
       <div className="clearboth">{data.length === 0 && <span>No Tech Associate found to display!</span>}</div>
-    </div>
+    </CardColumns>
     )
 }
 

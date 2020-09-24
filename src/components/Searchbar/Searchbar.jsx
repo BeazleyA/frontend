@@ -36,15 +36,13 @@ function Searchbar({data, setData}) {
     }
 
     return (
-     <div className= "Searchbar">
         <input
-        style={{ marginLeft: 5 }}
         type="text"
         placeholder="Search by Name, Role or Location"
         value={searchText}
         onChange={e => handleChange(e.target.value)}
       />
-   </div>
+  
     )
 }
 

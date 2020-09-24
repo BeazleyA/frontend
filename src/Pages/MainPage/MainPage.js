@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Checkbox from '../../components/checkbox/Checkbox';
 import DisplayData from './DisplayData';
 import PersonInfo from '../PersonInfo/PersonInfo';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import { Button } from 'react-bootstrap';
 import { Form } from 'react-bootstrap';
 import navPersonInfo from '../../components/mainToPersonInfo/MainToPersonInfo';
@@ -79,6 +80,7 @@ function MainPage() {
                   </div>
                 </div>
               </div>
+              
               <Searchresults data={data} setData={setData}/>
               <div className="row third">
                 <div className="input-field">
