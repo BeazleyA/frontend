@@ -1,28 +1,36 @@
-import React from 'react';
-import './Style/profile.css'
+import React from "react";
+import "./Style/profile.css";
 
 //class  which will map our data to the the web app in the HTML format
 
 //Use a .map function to render the first Name, last name and Image of cohort
 
-
 //we want to loop the JSON array over the profile compnonent to return the values of firstname lastname and image
 
-const Profile = ({ name, jobRole, location, startDate, bio, image, userId}) => {
-    
-    return (
-        <ul>
-            <li>
-                <div class ="profilename">{name}</div>
-                <div class="profilepic"><img alt={name} src={image}></img></div>
-                <div class= "userId">{userId}</div>
-                <div class= "jobRole">{jobRole}</div>
-                <div class= "startDate">{startDate}</div>
-                <div class= "location">{location}</div>
-                <div class= "bio">{bio}</div>
-            </li>
-        </ul>
-    );
+const Profile = ({
+  name,
+  jobRole,
+  location,
+  startDate,
+  bio,
+  image,
+  userId,
+}) => {
+  return (
+    <ul>
+      <li>
+        <div class="profilename">{name}</div>
+        <div class="profilepic">
+          <img height="150px" width="150px" alt={name} src={image}></img>
+        </div>
+        <div class="userId">{userId}</div>
+        <div class="jobRole">{jobRole}</div>
+        <div class="startDate">{startDate}</div>
+        <div class="location">{location}</div>
+        <div class="bio">{bio}</div>
+      </li>
+    </ul>
+  );
 };
 
 export default Profile;
