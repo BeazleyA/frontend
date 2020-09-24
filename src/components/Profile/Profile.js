@@ -17,8 +17,7 @@ const Profile = ({
   userId,
 }) => {
   return (
-    <ul>
-      <li>
+     <>
         <div class="profilename">{name}</div>
         <div class="profilepic">
           <img height="150px" width="150px" alt={name} src={image}></img>
@@ -28,8 +27,7 @@ const Profile = ({
         <div class="startDate">{startDate}</div>
         <div class="location">{location}</div>
         <div class="bio">{bio}</div>
-      </li>
-    </ul>
+      </>
   );
 };
 

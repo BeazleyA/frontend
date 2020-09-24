@@ -52,7 +52,7 @@ function MainPage() {
                 variant="primary"
                 onClick={() => handleButtonClick(user.userId)}
               >
-                See Profile
+                Profile
               </Button>
             </Card.Body>
           </Card>
@@ -71,7 +71,7 @@ function MainPage() {
                 variant="primary"
                 onClick={() => handleButtonClick(user.userId)}
               >
-                See Profile
+                Profile
               </Button>
             </Card.Body>
           </Card>
@@ -90,7 +90,7 @@ function MainPage() {
                 variant="primary"
                 onClick={() => handleButtonClick(user.userId)}
               >
-                See Profile
+                Profile
               </Button>
             </Card.Body>
           </Card>
@@ -100,20 +100,19 @@ function MainPage() {
     return associates;
   }
 
+
+// Displayed code
   return isDisplayMainPage ? (
     <>
       <div class="boxed">
         <h1
-          style={{
-            color: "#708090",
-            "text-align": "center",
-            "font-family": "cursive",
+          style={{color: "#ffffff", "text-align": "center","font-family": "ff din medium"
           }}
         >
-          <em>Non Solus</em>
+        <b>Non Solus</b>
         </h1>
         <img
-          style={{ float: "right", margin: "20px 0px 10px 10px" }}
+          style={{ float: "left", margin: "10px 0px 0px 0px", padding: "5px" }}
           src={logo}
           width="100"
         />
@@ -127,11 +126,11 @@ function MainPage() {
               </div>
             </div>
             <div className="advance-search">
-              <span className="desc">Cohort</span>
-              <Checkbox setCH1={setCH1} setCH2={setCH2} setCH3={setCH3} />
+              <span className="desc">Filter: Cohort year<Checkbox setCH1={setCH1} setCH2={setCH2} setCH3={setCH3} /></span>
               {/* <Searchresults data={data} setData={setData} /> */}
               <CardColumns>{displayUsers()}</CardColumns>
-            </div>
+              <br></br>
+              </div>
           </div>
         </form>
       </div>

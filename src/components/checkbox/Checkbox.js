@@ -23,6 +23,7 @@ const Checkbox = (props) => {
         onInput={handleCH1check}
         label="Cohort One"
         data-testid="Cohort One"
+        variant= "alert"
       ></Form.Check>
 
       <Form.Check
