@@ -109,9 +109,8 @@ function MainPage() {
         <h1 style={{color: "#ffffff", "text-align": "center","font-family": "ff din medium"}}><img style={{margin: "0px 0px 0px 0px", padding: "0px" }}
           src={logo}
           width="100" />
-        <b style={{padding: "5px"}}>Non Solus</b></h1>
+        <b style={{padding: "5px"}}>SCRUMbledore</b></h1>
       </div>
-
       <div className="s009">
         <form>
           <div className="inner-form">
