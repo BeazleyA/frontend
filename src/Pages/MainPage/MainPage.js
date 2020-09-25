@@ -105,11 +105,11 @@ function MainPage() {
   return isDisplayMainPage ? (
     <>
       <div class="boxed">
-      <img style={{ float: "left", margin: "0px 0px 0px 0px", padding: "0px" }}
+      
+        <h1 style={{color: "#ffffff", "text-align": "center","font-family": "ff din medium"}}><img style={{margin: "0px 0px 0px 0px", padding: "0px" }}
           src={logo}
           width="100" />
-        <h1 style={{color: "#ffffff", "text-align": "center","font-family": "ff din medium"}}>
-        <b>Non Solus</b></h1>
+        <b style={{padding: "5px"}}>Non Solus</b></h1>
       </div>
 
       <div className="s009">
