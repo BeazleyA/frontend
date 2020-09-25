@@ -454,6 +454,7 @@ legend {
 
 .boxed {
   border: 10px solid coral ;
+  padding: 10px;
   background-color: coral;
 }
 

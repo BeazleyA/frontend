@@ -1,13 +1,14 @@
-import React from "react";
+import React, { useState }from "react";
 import { Card, Button, CardColumns } from "react-bootstrap";
+import databases from "../../Users.json"
 
 function Searchresults({ data, setData }) {
   //get data from the user.json file
-  //const dataList = profiles.Users
+  const dataList = databases.Users
 
   //setting the array for picking up text in the searchbar, intitially declared as empty and data declared as entire cohort
   //const [searchText, setSearchText] = useState("");
-  //const [result, setResult] = useState(profiles.Users);
+  //const [result, setResult] = useState(dataList);
 
   // handle change event of search input
   //const handleChange = value => {
@@ -32,6 +33,7 @@ function Searchresults({ data, setData }) {
     <CardColumns>
       {data.map((d, i) => {
         return (
+        <>
           <Card bg="dark" text="light" key={i}>
             <img className=" card-img-top" src={d.imageLink} />
             <Card.Body className="d-flex flex-column">
@@ -43,6 +45,7 @@ function Searchresults({ data, setData }) {
               <Button variant="primary">See Profile</Button>
             </Card.Body>
           </Card>
+        </>
         );
       })}
       <div className="clearboth">
